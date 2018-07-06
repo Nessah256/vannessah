@@ -1,0 +1,46 @@
+*{
+    color: rgba(5, 5, 5, 0.856);
+    background-color: rgb(94, 99, 97);
+    margin: 0;
+    padding:0;
+    text-decoration:none;
+/* 
+    sets the width and height for the web page */
+    /* height: 500px;
+    width: 500px; */
+}
+
+li a {
+    display: block;
+    color:red;
+    padding: 8px 8px;
+    text-decoration: none;
+}
+
+
+#about{
+background-color: green;
+}
+
+
+.heading{
+    color: rgb(252, 253, 251);
+    background-color: rgb(252, 13, 5);
+    padding: 50px;
+    text-align: center;
+}
+
+
+    
+
+p{
+    margin: 26px;
+    padding: 26px;
+    text-align: left;
+    line-height: 10px;
+
+}
+.box-1{
+    color: violet;
+
+}
