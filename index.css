@@ -1,26 +1,31 @@
 *{
-    color: rgba(5, 5, 5, 0.856);
-    background-color: rgb(94, 99, 97);
-    margin: 0;
-    padding:0;
+    color: rgba(247, 236, 236, 0.856);
+   
+  
     text-decoration:none;
 /* 
     sets the width and height for the web page */
     /* height: 500px;
     width: 500px; */
 }
-
-li a {
-    display: block;
-    color:red;
-    padding: 8px 8px;
-    text-decoration: none;
+body{
+    background-color: bisque;
+}
+nav{
+    background-color: black;
+    padding: 20px;
+}
+ul{
+    margin-left:30%;
 }
 
-
-#about{
-background-color: green;
+li{
+    display: inline;
+    margin: 10px;
+  
+  
 }
+
 
 
 .heading{
@@ -37,10 +42,28 @@ p{
     margin: 26px;
     padding: 26px;
     text-align: left;
-    line-height: 10px;
+    line-height: 1em;
 
 }
 .box-1{
-    color: violet;
+    background-color: #ec3939  !important;
 
+}
+.container-a{
+    width: 200px;
+    background-color: #111;
+    height: auto;
+    z-index: 1;
+    top: 0;
+    
+
+}
+.container-b{
+    margin-left:30%; 
+    width: 60%;
+}
+
+footer{
+    color: black;
+    text-align: center;
 }
