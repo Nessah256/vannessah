@@ -1,5 +1,5 @@
 *{
-    color: rgba(247, 236, 236, 0.856);
+    /* color: #000000 */
    
   
     text-decoration:none;
@@ -12,18 +12,21 @@ body{
     background-color: bisque;
 }
 nav{
-    background-color: black;
+    background-color: darkslategrey;
     padding: 20px;
+    text-align: center;
 }
+
+
 ul{
-    margin-left:30%;
+    margin-left:20%;
+
 }
 
 li{
     display: inline;
     margin: 10px;
-  
-  
+   
 }
 
 
@@ -39,8 +42,8 @@ li{
     
 
 p{
-    margin: 26px;
-    padding: 26px;
+    margin: 10px;
+    padding: 10px;
     text-align: left;
     line-height: 1em;
 
@@ -61,6 +64,28 @@ p{
 .container-b{
     margin-left:30%; 
     width: 60%;
+}
+.me{
+    text-align: center;
+    color: darkgoldenrod;
+
+}
+.you{
+    text-align: inherit;
+    color: #111;
+
+}
+.u{
+    color: #111;
+    text-align: center;
+}
+.side-bar{
+    width:300px;
+    height:600px;
+    float:left;
+    background-color: grey;
+    padding-right: none;
+
 }
 
 footer{
